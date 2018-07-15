@@ -1,0 +1,24 @@
+{
+  "name": "tea-chess",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bucklescript-tea",
+    "ochess"
+  ],
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "refmt": 3
+}
